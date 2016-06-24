@@ -1,4 +1,6 @@
-
+<?php
+	$player = $_GET["choice"];
+	?>
 
 
 <!DOCTYPE html>
@@ -10,9 +12,11 @@
 </head>
 
 <body>
+	<p><?php print_r($_GET); ?></p>
+
 	<h1> Rock, Paper, Scissors</h1>
 
-<p> You chose <?php echo $_GET["choice"]; ?> 	
+<p> You chose <?php echo $_GET["choice"]; ?> </p>	
 
 <p> The computer chose <?php
 	$num = rand(1,300);
@@ -29,6 +33,28 @@ else{
 }
 ?>!<p>
 
+<?
+if($player == XXXX){
+	echo "NO BLOOD, PLAY AGAIN";
+}
+elseif ($player == "rock" && XXX == "sissors") {
+	echo "You LOSE";
+}
+elseif ($player == "rock" && XXX == "paper") {
+	echo "You WIN";
+}
+elseif ($player == "paper" && XXX == "rock") {
+	echo "You WIN";
+}
+elseif ($player == "paper" && XXX == "sissors") {
+	echo "You LOSE";
+}
+elseif ($player == "sissors" && XXX == "rock") {
+	echo "You LOSE";
+}
+else ($player == "sissors" && XXX == "paper") {
+	echo "You WIN";
+}
 
 
 <a href="index.php">PLAY AGAIN</a>

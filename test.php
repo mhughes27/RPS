@@ -16,24 +16,14 @@
 
 	<h1> Rock, Paper, Scissors</h1>
 
+<a href="random.php?choice=rock">rock</a>
+<a href="random.php?choice=paper">paper</a>
+<a href="random.php?choice=scissors">scissors</a>	
 	
 	
+
+
 	
-
-
-	<form>
-		<input type="text" name="choice">
-		<input type="submit" <a href="random.php?choice=rock"></a> 
-	</form>
-
-
-<?php
-	$weapon = $_GET["choice"];
-	echo "You chose $weapon!";
-	?>
-
-<a href="random.php?choice=rock">DID I WIN?</a>
-
 </body>
 </html>
 
