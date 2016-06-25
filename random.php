@@ -33,31 +33,11 @@ else{
 }
 ?>!<p>
 
-<?
-if($player == XXXX){
-	echo "NO BLOOD, PLAY AGAIN";
-}
-elseif ($player == "rock" && XXX == "sissors") {
-	echo "You LOSE";
-}
-elseif ($player == "rock" && XXX == "paper") {
-	echo "You WIN";
-}
-elseif ($player == "paper" && XXX == "rock") {
-	echo "You WIN";
-}
-elseif ($player == "paper" && XXX == "sissors") {
-	echo "You LOSE";
-}
-elseif ($player == "sissors" && XXX == "rock") {
-	echo "You LOSE";
-}
-else ($player == "sissors" && XXX == "paper") {
-	echo "You WIN";
-}
+
+<h1> Outcomes...Coming soon</h1>
 
 
-<a href="index.php">PLAY AGAIN</a>
+<a href="test.php">PLAY AGAIN</a>
 
 </body>
 </html>

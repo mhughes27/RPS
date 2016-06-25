@@ -16,9 +16,9 @@
 
 	<h1> Rock, Paper, Scissors</h1>
 
-<a href="random.php?choice=rock">rock</a>
-<a href="random.php?choice=paper">paper</a>
-<a href="random.php?choice=scissors">scissors</a>	
+<a href="random.php?choice=rock"><img src="rock.jpg" alt="rock"></a>
+<a href="random.php?choice=paper"><img src="paper.jpg" alt="paper"></a>
+<a href="random.php?choice=scissors"><img src="scissors.jpg" alt="scissors"></a>	
 	
 	
 
