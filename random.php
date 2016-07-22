@@ -1,43 +1,37 @@
-<?php
-	$player = $_GET["choice"];
-	?>
-
+<?php include("functions.php"); ?>
 
 <!DOCTYPE html>
 <html>
 
 <head>
 	<title>Rock, Paper, Scoissors</title>
-	<link rel="stylesheet" type="text/class" href="teststyle3.css">
+	<link rel="stylesheet" type="text/class" href="rps.css">
 </head>
 
-<body>
-	<p><?php print_r($_GET); ?></p>
+<body class="body">
+	<h1 class="title">Rock, Paper, Scissors</h1>
+	<div class="outcome">
+		<ul>
+			<li><h3 class="outcome__text">You chose <?php echo $player; ?>!</h3></li>
+		
+			<li><h3 class="outcome__text">The Computer chose <?php echo $computer; ?>!</h3></li>
+			
+			<li><h3 class="outcome__text"><?php echo outcome($player, $computer); ?></h3></li>
+		</ul>		
+	</div>
+	
 
-	<h1> Rock, Paper, Scissors</h1>
-
-<p> You chose <?php echo $_GET["choice"]; ?> </p>	
-
-<p> The computer chose <?php
-	$num = rand(1,300);
-		echo $compnum;
-
-if($num%3 == 0){
-	echo "Rock";
-}
-elseif($num%3 == 1){
-	echo "Paper";
-}
-else{
-	echo "Scissors";
-}
-?>!<p>
-
-
-<h1> Outcomes...Coming soon</h1>
+	
+	<div class="links">
+		<ul>
+			<a href="index.php">PLAY AGAIN</a>
+		
+			<a href="../index.php">RETURN HOME</a>
+		</ul>
+	</div>
 
 
-<a href="test.php">PLAY AGAIN</a>
+
 
 </body>
 </html>

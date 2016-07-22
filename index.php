@@ -1,42 +1,21 @@
-
-
-
-
 <!DOCTYPE html>
 <html>
-
 <head>
-	<title>Rock, Paper, Scoissors</title>
-	<link rel="stylesheet" type="text/class" href="teststyle3.css">
+	<title>TIC TAC TOE</title>
+	<link rel="stylesheet" type="text/css" href="rps.css">
 </head>
-
-<body>
-
-	<p><?php print_r($_GET); ?></p>
-
-	<h1> Rock, Paper, Scissors</h1>
-
-	
-	
-	
+<body class = "body">
 
 
-	<form>
-		<input type="text" name="choice">
-		<input type="submit" <a href="random.php?choice=rock"></a> 
-	</form>
+	<div class="title"><h1> Rock, Paper, Scissors</h1></div>
 
 
-<?php
-	$weapon = $_GET["choice"];
-	echo "You chose $weapon!";
-	?>
-
-<a href="random.php?choice=rock">DID I WIN?</a>
+	<div class="icons">
+		<a class="icons__image" href="random.php?choice=ROCK"><img src="rock.jpg" alt="rock"></a>
+		<a class="icons__image" href="random.php?choice=PAPER"><img src="paper.jpg" alt="paper"></a>
+		<a class="icons__image" href="random.php?choice=SCISSORS"><img src="scissors.jpg" alt="scissors"></a>	
+	</div>
 
 </body>
 </html>
-
-
-	
 

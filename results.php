@@ -46,7 +46,7 @@ else{
 
 
 
-
+function outcome()
 
 <?
 if($player == XXXX){
